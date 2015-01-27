@@ -1,5 +1,3 @@
-require "convert_kana/version"
+require 'convert_kana/version'
+require 'convert_kana/extentions/string'
 
-module ConvertKana
-  # Your code goes here...
-end

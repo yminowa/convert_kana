@@ -6,11 +6,11 @@ require 'convert_kana/version'
 Gem::Specification.new do |spec|
   spec.name          = "convert_kana"
   spec.version       = ConvertKana::VERSION
-  spec.authors       = ["Yuichi Minowa(@y_minowa)"]
-  spec.email         = ["yuichi.minowa@u-cast.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["Yuichi MINOWA(@y_minowa)"]
+  spec.email         = ["y.minowa0614@gmail.com"]
+  spec.summary       = %q{Convert full(or half)-width katakana to hiragana, and vice versa.}
+  #spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.homepage      = "http://blog.mino3.com/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
