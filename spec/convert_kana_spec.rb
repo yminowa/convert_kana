@@ -1,8 +1,12 @@
 require 'spec_helper'
 
 describe String do
-  it 'converts katanaka to hiragana' do
+  it 'converts full-width katanaka to hiragana' do
     expect('タクト'.to_hiragana).to eq 'たくと'
+  end
+
+  it 'converts half-width katanaka to hiragana' do
+    expect('ﾀｸﾄ'.to_hiragana).to eq 'たくと'
   end
 
   it 'converts hiragana to half-width katakana' do
