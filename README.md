@@ -1,6 +1,6 @@
 # ConvertKana
 
-Convert full(or half)-width katakana to hiragana, and vice versa.
+Convert full(or half)-width katakana to hiragana, and vice versa as String class extension.
 
 ## Installation
 
@@ -20,7 +20,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### 1) converts full(or half)-width katakana to hiragana
+
+    'タクト'.to_hiragana       # => 'たくと'
+    'ﾀｸﾄ'.to_hiragana       # => 'たくと'
+
+### 2) converts hiragana to full-width katakana
+
+    'たくと'.to_katakana       # => 'タクト'
+
+### 3) converts hiragana to half-width katakana
+
+    'たくと'.to_hw_katakana    # => 'ﾀｸﾄ'
+
+### 4) else
+
+Output as it is. For example,
+
+    '拓人'.to_hiragana        # => '拓人
 
 ## Contributing
 
